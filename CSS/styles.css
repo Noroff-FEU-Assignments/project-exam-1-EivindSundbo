@@ -1,0 +1,98 @@
+@import url(/CSS/global-styles/colors.css);
+@import url(/CSS/global-styles/typography.css);
+
+header{
+    
+    margin: 0 auto;
+    display: flex;
+    background-color: var(--header-color);
+    color: var(--text-color);
+    font-size: 35px;
+    padding: 10px;
+}
+
+#wrapper{
+    background-color: var(--body-color);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.page-title{
+    flex: 1;
+    margin: 0 0 0 50px;
+    font-weight: bold;
+}
+
+.links{
+    flex: 1;
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links div:hover{
+    color: var(--text-hover-color);
+    font-weight: bold;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+}
+
+.welcome-img{
+    flex: 1;
+    width: 50%;
+    margin: 30px 0 20px 50px;
+}
+
+.welcome-h1{
+    flex: 1;
+    width: 90%;
+    margin: 20px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+h2{
+    color: var(--text-color);
+    text-align: center;
+}
+
+.about-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-about, .home-contact, .about-contact-img{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-contact-img{
+    margin: 50px 0 50px 0;
+    width: 30%;
+}
+
+.button{
+    width: 50%;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.button:hover{
+    background-color: var(--text-hover-color);
+    cursor: pointer;
+}
