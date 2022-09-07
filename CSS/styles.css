@@ -2,7 +2,6 @@
 @import url(/CSS/global-styles/typography.css);
 
 header{
-    
     margin: 0 auto;
     display: flex;
     background-color: var(--header-color);
@@ -41,17 +40,16 @@ header{
 .welcome{
     display: flex;
     align-items: center;
+    margin-bottom: 8vmin;
 }
 
 .welcome-img{
-    flex: 1;
     width: 50%;
-    margin: 30px 0 20px 50px;
 }
 
 .welcome-h1{
-    flex: 1;
-    width: 90%;
+    width: 100%;
+    font-size: 3vmin;
     margin: 20px;
     color: var(--text-color);
     text-align: center;
@@ -63,6 +61,7 @@ h2{
 }
 
 .about-contact{
+    margin-top: 8vmin;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +77,6 @@ h2{
 }
 
 .about-contact-img{
-    margin: 50px 0 50px 0;
     width: 30%;
 }
 
