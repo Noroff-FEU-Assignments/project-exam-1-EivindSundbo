@@ -1,46 +1,16 @@
 @import url(/CSS/global-styles/colors.css);
 @import url(/CSS/global-styles/typography.css);
+@import url(/CSS/headerfooter.css);
 
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-header{
-    margin: 0 auto;
-    display: flex;
-    background-color: var(--header-color);
+h1, p{
     color: var(--text-color);
-    font-size: 35px;
-    padding: 10px;
 }
+
 
 #wrapper{
     background-color: var(--body-color);
     max-width: 1440px;
     margin: 0 auto;
-}
-
-.page-title{
-    flex: 1;
-    margin: 0 0 0 50px;
-    font-weight: bold;
-}
-
-.links{
-    flex: 1;
-    display: flex;
-    margin-right: 2vw;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 3vw;
-}
-
-.links div:hover{
-    color: var(--text-hover-color);
-    font-weight: bold;
-    transition: 0.6s;
-    cursor: pointer;
 }
 
 .welcome{
@@ -93,6 +63,7 @@ h2{
     font-weight: bold;
     border-radius: 10px;
     margin: 20px;
+    box-shadow: 5px 5px 20px #d6d4cb;
 }
 
 .button:hover{

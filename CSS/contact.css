@@ -1,0 +1,54 @@
+
+h1{
+    margin: 0 auto;
+}
+
+p{
+    margin-top: 40px;
+}
+
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.form-error {
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+
+.contact-main{
+    display: flex;
+    margin-top: 5vw;
+}
+
+.contact-main > div{
+    width: 40%;
+    margin: 0 auto;
+}
+
+input, button{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #d6d4cb;
+    background-color: var(--header-color);
+}
+
+input::placeholder{
+    color: var(--text-color);
+}
+
+#message{
+    height: 80px;
+}
+
+button{
+    margin-top: 40px;
+    background-color: var(--button-color);
+    color: white;
+}

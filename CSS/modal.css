@@ -6,6 +6,9 @@
     max-width:450px;
 }
 
+.image:hover{
+    transform: scale(1.05);
+}
 
 .modal{
     display: none;
@@ -22,7 +25,7 @@
 .modal-content{
     margin: auto;
     display: block;
-    width: 100%;
+    width: 70%;
     max-width: 800px;
     animation-name: zoom;
     animation-duration: 0.6s;
