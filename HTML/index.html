@@ -13,12 +13,20 @@
 <body>
     <div id="wrapper">
         <header>
-            <div class="page-title">John <br>Bottolfsens <br>gate 14</div>
+            <a href="index.html" class="page-title">John <br>Bottolfsens <br>gate 14</a>
             <div class="links">
-                <div a href="/HTML/index.html">Home</div>
-                <div a href="/HTML/list.html">Posts</div>
-                <div a href="/HTML/about.html">About</div>
-                <div a href="/HTML/contact.html">Contact</div>
+                <a href="/html/index.html">
+                    <span>Home</span>
+                </a>
+                <a href="/html/list.html">
+                    <span>Posts</span>
+                </a>
+                <a href="/html/about.html">
+                    <span>About</span>
+                </a>
+                <a href="/html/contact.html">
+                    <span>Contact</span>
+                </a>
             </div>
         </header>
         <div class="welcome">
@@ -29,9 +37,11 @@
         </div>
         <h2 class="latest-post-header">Latest posts</h2>
         <div class="carousel">
-            <div><i class="fa-solid fa-arrow-left"></i></div>
-            <div class="carousel_card"></div>
-            <div><i class="fa-solid fa-arrow-right"></i></div>
+            <div><i id="arrow-prev" class="fa-solid fa-arrow-left"></i></div>
+            <div id="slideone" class="carousel_card active"></div>
+            <div id="slidetwo" class="carousel_card"></div>
+            <div id="slidethree" class="carousel_card"></div>
+            <div><i id="arrow-next" class="fa-solid fa-arrow-right"></i></div>
         </div>
         <div class="about-contact">
             <div class="home-about">

@@ -1,19 +1,25 @@
 .carousel{
     display: flex;
-    width: 80%;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
+    width: 80%;
 }
 
 .carousel_card{
     display: flex;
     justify-content: center;
     margin: 0 10px 0 10px;
+    display: none;
+}
+
+.active{
+    display: flex;
 }
 
 .card{
-    width: 25%;
-    height: auto;
+    /* width: 20%; */
+    /* height: auto; */
     position: relative;
     text-align: center;
 }
@@ -22,7 +28,7 @@
     max-width: 100%;
 }
 
-.title-background{
+/* .title-background{
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
     width: 50%;
@@ -31,14 +37,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.2em;
-}
+} */
 
 .fa-solid{
     color: var(--text-color);
-    font-size: 6vmin;
+    font-size: 6vw;
 }
 
 .fa-solid:hover{
     color: var(--text-hover-color);
-    font-size: 7vmin;
+    font-size: 7vw;
 }

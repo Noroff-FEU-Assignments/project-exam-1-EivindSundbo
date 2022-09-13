@@ -1,6 +1,11 @@
 @import url(/CSS/global-styles/colors.css);
 @import url(/CSS/global-styles/typography.css);
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 header{
     margin: 0 auto;
     display: flex;
@@ -25,9 +30,10 @@ header{
 .links{
     flex: 1;
     display: flex;
-    margin-right: 20px;
+    margin-right: 2vw;
     justify-content: space-between;
     align-items: center;
+    font-size: 3vw;
 }
 
 .links div:hover{
@@ -50,7 +56,6 @@ header{
 .welcome-h1{
     width: 100%;
     font-size: 3vmin;
-    margin: 20px;
     color: var(--text-color);
     text-align: center;
 }
