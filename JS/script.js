@@ -52,7 +52,7 @@ async function createCarousel(){
             `
             <a href="post.html?id=${data[i].id}">
                 <div class="carousel-card-content">
-                    <h2>${data[i].acf.heading}</h2>
+                    <h3>${data[i].acf.heading}</h3>
                     <img src="${data[i].acf.image}" />
                 </div>
             </a>
@@ -64,7 +64,7 @@ async function createCarousel(){
             `
             <a href="post.html?id=${data[i].id}">
                 <div class="carousel-card-content">
-                    <h2>${data[i].acf.heading}</h2>
+                    <h3>${data[i].acf.heading}</h3>
                     <img src="${data[i].acf.image}" />
                 </div>
             </a>
@@ -76,7 +76,7 @@ async function createCarousel(){
             `
             <a href="post.html?id=${data[i].id}">
                 <div class="carousel-card-content">
-                    <h2>${data[i].acf.heading}</h2>
+                    <h3>${data[i].acf.heading}</h3>
                     <img src="${data[i].acf.image}" />
                 </div>
             </a>

@@ -24,7 +24,7 @@ header{
     margin-right: 2vw;
     justify-content: space-between;
     align-items: center;
-    font-size: 3vw;
+    font-size: 3vh;
 }
 
 .links div:hover{
@@ -40,16 +40,10 @@ header{
     padding: 0 5px 0 5px;
 }
 
-/* .current:hover{
-    border-bottom: 5px solid var(--text-hover-color);
-    border-radius: 5px;
-    transition: 0.6s;
-} */
 
 .current:hover{
     color: var(--text-color);
     border-bottom: 5px solid var(--text-color);
     font-weight: normal;
-    border-radius: 5px;
     transition: 0.6s;
 }
