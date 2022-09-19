@@ -1,9 +1,12 @@
+
+
 .carousel{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
+    
 }
 
 .carousel_card{
@@ -11,6 +14,7 @@
     justify-content: center;
     margin: 0 10px 0 10px;
     display: none;
+    
 }
 
 .active{
@@ -20,12 +24,28 @@
 .card{
     /* width: 20%; */
     /* height: auto; */
-    position: relative;
+    /* position: relative; */
     text-align: center;
 }
 
-.carousel_image{
-    max-width: 200px;
+.carousel-card-content:hover  .title-background{
+    color: var(--text-hover-color);
+    transition: 0.4s;
+}
+
+.carousel-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.carousel-card-content img{
+    max-width: 100%;
+    border-radius: 9px;
+    position: relative;
+    box-shadow: 5px 5px 10px #d6d4cb;
 }
 
 /* .title-background{
@@ -39,12 +59,41 @@
     font-size: 1.2em;
 } */
 
+.arrow-box{
+    width: 7vw;
+}
+
 .fa-solid{
     color: var(--text-color);
     font-size: 6vw;
+    /* padding: 1vw; */
 }
 
 .fa-solid:hover{
     color: var(--text-hover-color);
+    cursor: pointer;
     font-size: 7vw;
+    /* padding: 0vw; */
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .arrow-box{
+        display: none;
+    }
+    
+}
+
+/* @media only screen and (max-width: 450px) {
+    footer p{
+        font-size: 10px;
+    }
+} */
+
+
+@media only screen and (max-width: 450px) {
+    footer p{
+        font-size: 10px;
+    }
 }

@@ -20,13 +20,13 @@ h1, p{
     margin-bottom: 8vmin;
 }
 
-.welcome-img{
+.welcome-img, .welcome-text{
     width: 50%;
 }
 
 .welcome-h1{
     width: 100%;
-    font-size: 3vmin;
+    /* font-size: 3vmin; */
     color: var(--text-color);
     text-align: center;
 }
@@ -34,10 +34,12 @@ h1, p{
 h2{
     color: var(--text-color);
     text-align: center;
+    /* font-size: 3vmin; */
 }
 
 .about-contact{
     margin-top: 8vmin;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,18 +59,64 @@ h2{
 }
 
 .button{
-    width: 50%;
+    width: 75%;
     background-color: var(--button-color);
     color: var(--button-text-color);
     font-size: 30px;
     font-weight: bold;
     border-radius: 10px;
     margin: 20px;
-    box-shadow: 5px 5px 20px #d6d4cb;
+    box-shadow: 5px 5px 10px #d6d4cb;
 }
 
 .button:hover{
     background-color: var(--text-hover-color);
     cursor: pointer;
     transition: 0.4s;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .about-contact{
+        display: block;
+    }
+    
+    .home-about, .home-contact, .about-contact-img{
+        width: 70%;
+    }
+
+    .button{
+        width: 50%;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+
+    
+    .welcome{
+        display: block;
+    }
+    
+    .welcome-img, .welcome-text{
+        width: 100%;
+    }
+    
+    .welcome-h1{
+        width: 100%;
+        /* font-size: 3vmin; */
+        text-align: center;
+    }
+
+    .button{
+        width: 75%;
+    }
+
+    
+    
+    
 }

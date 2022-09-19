@@ -7,3 +7,60 @@ p, input::placeholder, textarea{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
 }
+
+h1{
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+h2{
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+h3{
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+h4{
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+p, input::placeholder, textarea{
+ font-size: 16px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 25px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    h3{
+        font-size: 15px;
+    }
+    
+    h4{
+        font-size: 10px;
+    }
+    
+    p, input::placeholder, textarea{
+     font-size: 12px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+
+    
+    
+}

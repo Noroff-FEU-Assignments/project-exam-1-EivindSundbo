@@ -18,14 +18,19 @@ async function getApi(){
             blogPost.innerHTML =
             `
             <div class="blog-post-item">
-                <h2>${data.acf.heading}</h2>
+                <h1>${data.acf.heading}</h1>
                 <p>${data.acf.paragraph}</p>
+                <img class="image" src="${data.acf.image}" />
+                <h2>Shopping List</h2>
+                <p>${data.acf.shoppinglist}</p>
             </div>
-            <img class="image" src="${data.acf.image}" />
+            
             <div id="myModal" class="modal">
                 <img class="modal-content" id="img" src="${data.acf.image}">
             </div>
             `
+            console.log(data);
+            
 
             //////Generate title//////
             title.innerHTML = `John Bottolfsens gate 14 | ${data.acf.heading}`

@@ -6,9 +6,8 @@ const slides = document.getElementsByClassName("carousel_card");
 const currentSlide = 0;
 const slideone = document.getElementById("slideone")
 const slidetwo = document.getElementById("slidetwo")
-const slidethree = document.getElementById("slidethree")
-const slidefour = document.getElementById("slidefour")
 const postContainer = document.querySelector(".carousel_card");
+
 
 
 //Event listener
@@ -30,14 +29,6 @@ function changeSlide(moveTo) {
     currentSlide = moveTo;
 }
 
-// document.querySelectorAll('.slider__navlink').forEach((bullet, bulletIndex) => {
-//     bullet.addEventListener('click', () => {
-//         if (currentSlide !== bulletIndex) {
-//             changeSlide(bulletIndex);
-//         }
-//     })
-// })
-
 //Fetch and post carousel content
 async function createCarousel(){
     try{
@@ -52,8 +43,8 @@ async function createCarousel(){
             `
             <a href="post.html?id=${data[i].id}">
                 <div class="carousel-card-content">
-                    <h3>${data[i].acf.heading}</h3>
                     <img src="${data[i].acf.image}" />
+                    <h3 class="title-background" >${data[i].acf.heading}</h3>
                 </div>
             </a>
             `;
@@ -64,24 +55,15 @@ async function createCarousel(){
             `
             <a href="post.html?id=${data[i].id}">
                 <div class="carousel-card-content">
-                    <h3>${data[i].acf.heading}</h3>
                     <img src="${data[i].acf.image}" />
+                    <h3 class="title-background" >${data[i].acf.heading}</h3>
                 </div>
             </a>
             `;
         }
 
-        for(let i = 6; i <= 8; i++){            
-            slidethree.innerHTML += 
-            `
-            <a href="post.html?id=${data[i].id}">
-                <div class="carousel-card-content">
-                    <h3>${data[i].acf.heading}</h3>
-                    <img src="${data[i].acf.image}" />
-                </div>
-            </a>
-            `;
-        }
+      
+
         
     } catch (error){
         console.log(error);
