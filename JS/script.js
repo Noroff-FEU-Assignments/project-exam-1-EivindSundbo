@@ -43,7 +43,7 @@ async function createCarousel(){
             `
             <a href="post.html?id=${data[i].id}">
                 <div class="carousel-card-content">
-                    <img src="${data[i].acf.image}" />
+                    <img src="${data[i].acf.image}" alt="${data[i].title.rendered}"/>
                     <h3 class="title-background" >${data[i].acf.heading}</h3>
                 </div>
             </a>
