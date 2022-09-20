@@ -60,19 +60,19 @@
 } */
 
 .arrow-box{
-    width: 7vw;
+    width: 4vw;
 }
 
 .fa-solid{
     color: var(--text-color);
-    font-size: 6vw;
+    font-size: 4vw;
     /* padding: 1vw; */
 }
 
 .fa-solid:hover{
     color: var(--text-hover-color);
     cursor: pointer;
-    font-size: 7vw;
+    font-size: 4vw;
     /* padding: 0vw; */
 }
 
