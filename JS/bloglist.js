@@ -22,7 +22,6 @@ async function blogList(url){
                     <h2 class="card-title">${data[i].acf.heading}</h2>
                 </div>
             </a>
-            
             `;
         }        
     } catch (error){

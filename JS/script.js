@@ -6,6 +6,7 @@ const slides = document.getElementsByClassName("carousel_card");
 const currentSlide = 0;
 const slideone = document.getElementById("slideone")
 const slidetwo = document.getElementById("slidetwo")
+const slideMobile = document.getElementById("slidemobile")
 const postContainer = document.querySelector(".carousel_card");
 
 
@@ -59,6 +60,19 @@ async function createCarousel(){
                 <div class="carousel-card-content">
                 <img src="${data[i].acf.image}" alt="${data[i].title.rendered}"/>
                     <h3 class="title-background" >${data[i].acf.heading}</h3>
+                </div>
+            </a>
+            `;
+        }
+
+        //////mobile slides//////
+        for(let i = 0; i <= 3; i++){            
+            slideMobile.innerHTML += 
+            `
+            <a href="post.html?id=${data[i].id}" class="post-container">
+                <div class="card">
+                    <img src="${data[i].acf.image}" />
+                    <h2 class="card-title">${data[i].acf.heading}</h2>
                 </div>
             </a>
             `;
