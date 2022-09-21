@@ -3,6 +3,10 @@ h1, h2, h3, h4, h5, button{
     font-weight: bold;
 }
 
+textarea:-moz-placeholder, textarea::-moz-placeholder, textarea:-ms-input-placeholder, textarea::placeholder {
+    text-decoration: none;
+}
+
 p, input::placeholder, textarea, textarea::-webkit-input-placeholder, textarea:-moz-placeholder, textarea::-moz-placeholder, textarea:-ms-input-placeholder, textarea::placeholder{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
