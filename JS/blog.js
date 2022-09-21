@@ -6,6 +6,7 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
 
+//////URL//////
 const url = "https://project-exam-1.eg-sundbo.online/wp-json/wp/v2/posts/" + id + "?acf_format=standard"
 
 //////Fetch API//////

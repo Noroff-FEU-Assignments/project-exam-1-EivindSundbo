@@ -4,7 +4,6 @@ a{
 }
 
 header, footer{
-    margin: 0 auto;
     display: flex;
     background-color: var(--header-color);
     color: var(--text-color);
@@ -14,7 +13,11 @@ header, footer{
 
 footer{
     justify-content: center;
-    font-size: 15px;
+    padding: 20px 0 20px 0;
+}
+
+footer p{
+    font-size: 20px;
 }
 
 .page-title{
@@ -79,7 +82,6 @@ footer{
 
     .links{
         margin-top: 20px;
-        /* width: 80%; */
     }
 
     .page-title{
@@ -88,12 +90,10 @@ footer{
         font-weight: bold;
     }
 
-  }
-
-  @media only screen and (max-width: 768px) {
-    
-    
-  }
+    footer p{
+        font-size: 15px;
+    }
+}
 
   @media only screen and (max-width: 425px) {
     
@@ -106,5 +106,8 @@ footer{
     .links{
         font-size: 6vw;
     }
-    
+
+    footer p{
+        font-size: 10px;
+    }
 }

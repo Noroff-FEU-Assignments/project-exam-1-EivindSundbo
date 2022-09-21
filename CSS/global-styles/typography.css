@@ -1,17 +1,11 @@
 h1, h2, h3, h4, h5, button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color: var(--text-color);
 }
 
 p, input::placeholder, textarea{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    color: var(--text-color);
-}
-
-li{
-    color: var(--text-color);
 }
 
 h1{
@@ -31,9 +25,8 @@ h4{
 }
 
 p, input::placeholder, textarea{
- font-size: 16px;
+ font-size: 15px;
 }
-
 
 @media only screen and (max-width: 768px) {
     h1{
@@ -53,12 +46,10 @@ p, input::placeholder, textarea{
     }
     
     p, input::placeholder, textarea{
-     font-size: 12px;
+     font-size: 15px;
     }
 
 }
-
-
 
 
 @media only screen and (max-width: 450px) {

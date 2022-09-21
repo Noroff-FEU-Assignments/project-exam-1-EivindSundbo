@@ -1,6 +1,6 @@
 @import url(/CSS/global-styles/colors.css);
 @import url(/CSS/global-styles/typography.css);
-@import url(/CSS/headerfooter.css);
+@import url(/CSS/global-styles/headerfooter.css);
 @import url(/CSS/hamburger.css);
 
 h1, p{
@@ -24,7 +24,7 @@ h1, p{
     width: 50%;
 }
 
-.welcome-h1{
+.welcome-h1, p{
     width: 100%;
     /* font-size: 3vmin; */
     color: var(--text-color);
@@ -115,8 +115,4 @@ h2{
     .button{
         width: 75%;
     }
-
-    
-    
-    
 }

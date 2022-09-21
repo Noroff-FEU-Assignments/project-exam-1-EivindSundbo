@@ -1,5 +1,6 @@
 main{
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -11,15 +12,36 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .post-container{
-    margin: 1em;
+    margin: 10px;
+    width: 30%;
 }
 
+.post-container img{
+    border-radius: 9px;
+    box-shadow: 5px 5px 10px #d6d4cb;
+    width: 100%;
+}
 
+.card-title{
+    width: 100%;
+}
 
-button {
+.card:hover .card-title{
+    transition: 0.4s;
+    color: var(--text-hover-color);
+}
+
+/* Button styling */
+.more-posts {
     width: 50%;
     height: 40px;
     border: none;
@@ -30,15 +52,34 @@ button {
     font-weight: normal;
 }
 
-button{
+.more-posts{
     margin: 40px 0 40px 0;
     background-color: var(--button-color);
     color: white;
 }
 
-.button:hover{
+.more-posts:hover{
     background-color: var(--text-hover-color);
     cursor: pointer;
     transition: 0.4s;
 }
 
+@media only screen and (max-width: 768px) {
+    .post-container{
+        width: 40%;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    .post-container{
+        width: 60%;
+    }
+    .card{
+        width: 100%;
+    }
+}
