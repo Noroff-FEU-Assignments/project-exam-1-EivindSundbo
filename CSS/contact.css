@@ -54,9 +54,8 @@ input, button, textarea{
     border-radius: 10px;
     box-shadow: 5px 5px 20px #d6d4cb;
     background-color: var(--header-color);
-    font-size: 20px;
-    font-weight: normal;
 } 
+
 
 input::placeholder{
     color: var(--text-color);

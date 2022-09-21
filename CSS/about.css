@@ -4,7 +4,7 @@
 }
 
 h1{
-    text-align: center;
+    margin-top: 50px;
 }
 
 .main > div{
@@ -14,23 +14,28 @@ h1{
 
 .about-text{
     display: flex;
+    flex-direction: column;
     flex: 1;
-    justify-content: flex-end;
     align-items: center;
     margin: 0 auto;
+    margin-left: 20px;
 }
+
 
 .about-text p{
     width: 75%;
 }
 
 .about-img{
+    display: flex;
     flex: 1;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
-    width: 65%;
+    width: 75%;
 }
 
 .mobile{
@@ -38,7 +43,7 @@ img{
 }
 
 .quote{
-    margin: 40px;
+    margin: 100px;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -67,5 +72,10 @@ img{
 
     .about-img{
         margin: 20px;
+    }
+
+    .quote{
+        width: 70%;
+        padding: 60px;
     }
 }

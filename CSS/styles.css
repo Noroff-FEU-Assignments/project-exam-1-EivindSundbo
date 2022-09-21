@@ -18,6 +18,8 @@ h1, p{
     display: flex;
     align-items: center;
     margin-bottom: 8vmin;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .welcome-img, .welcome-text{
@@ -30,6 +32,11 @@ h1, p{
     text-align: center;
 }
 
+.welcome-text p{
+    width: 80%;
+    margin: 0 auto;
+}
+
 h2{
     color: var(--text-color);
     text-align: center;
@@ -38,6 +45,8 @@ h2{
 
 
 .about-contact{
+    width: 80%;
+    margin: 0 auto;
     margin-top: 8vmin;
     margin-bottom: 40px;
     display: flex;
@@ -55,14 +64,14 @@ h2{
 }
 
 .about-contact-img{
-    width: 30%;
+    width: 25%;
 }
 
 .button, .button-all-posts{
-    width: 75%;
+    width: 75%; 
     background-color: var(--button-color);
     color: var(--button-text-color);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: 10px;
     margin: 20px;
@@ -73,6 +82,8 @@ h2{
     width: 35%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 
@@ -93,6 +104,10 @@ h2{
         width: 70%;
     }
 
+    .home-about, .about-contact-img{
+        margin-bottom: 20px;
+    }
+
     .button{
         width: 50%;
     }
@@ -109,6 +124,10 @@ h2{
         width: 100%;
         text-align: center;
     }
+
+    .button-all-posts{
+        width: 50%;
+    }
     
 
 }
@@ -118,5 +137,9 @@ h2{
 
     .button{
         width: 75%;
+    }
+
+    .button-all-posts{
+        width: 80%;
     }
 }

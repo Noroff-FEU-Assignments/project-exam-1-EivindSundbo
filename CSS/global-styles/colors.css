@@ -9,6 +9,27 @@
     --border-color: #707070;
 }
 
-h1, h2, h3, h4, h5, button, p, input::placeholder, textarea, li{
+h1, h2, h3, h4, h5, button, p, input::placeholder, textarea, li, #message{
     color: var(--text-color);
 }
+
+
+textarea::-webkit-input-placeholder {
+    color: #4B7726;
+  }
+  
+  textarea:-moz-placeholder { /* Firefox 18- */
+    color: #4B7726;  
+  }
+  
+  textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #4B7726;  
+  }
+  
+  textarea:-ms-input-placeholder {
+    color: #4B7726;  
+  }
+  
+  textarea::placeholder {
+    color: #4B7726;  
+  }

@@ -66,7 +66,7 @@ async function createCarousel(){
         }
 
         //////mobile slides//////
-        for(let i = 0; i <= 3; i++){            
+        for(let i = 8; i <= 11; i++){            
             slideMobile.innerHTML += 
             `
             <a href="post.html?id=${data[i].id}" class="post-container">
