@@ -14,18 +14,31 @@ async function getApi(){
     try{
         const response = await fetch(url);
         const data = await response.json();
+        console.log(data);
+        
 
             //////Generate post//////
             blogPost.innerHTML =
             `
             <div class="blog-post-item">
-                <h1>${data.acf.heading}</h1>
-                <p>${data.acf.paragraph}</p>
-                <img class="image" src="${data.acf.image}" />
-                <h2>Shopping List</h2>
-                <p>${data.acf.shoppinglist}</p>
+                <div class="main-content">
+                    <img class="image" src="${data.acf.image}" />
+                    <div class="post-text-content">
+                        <h1>${data.acf.heading}</h1>
+                        <h2>${data.acf.description}</h2>
+                        <p class="post-paragraph">${data.acf.paragraph}</p>
+                    </div>
+                    
+                </div>
+                <div class="shoppinglist">
+                    <h3>Shopping List</h3>
+                    <p>${data.acf.shoppinglist}</p>
+                </div>
             </div>
-            
+            <div class="quote">
+                <p>${data.acf.quote}</p>
+            </div>
+
             <div id="myModal" class="modal">
                 <img class="modal-content" id="img" src="${data.acf.image}">
             </div>

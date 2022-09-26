@@ -10,8 +10,8 @@ async function blogList(url){
     try{
         const response = await fetch(url);
         const data = await response.json();
-        // console.log(data);
 
+        postContainer.innerHTML = "";
 
         for(var i = 0; i <= data.length-1; i++){            
             postContainer.innerHTML += 

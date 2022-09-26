@@ -25,7 +25,7 @@
 .modal-content{
     margin: auto;
     display: block;
-    width: 70%;
+    width: 30%;
     max-width: 800px;
     animation-name: zoom;
     animation-duration: 0.6s;
