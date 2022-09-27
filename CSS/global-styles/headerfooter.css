@@ -43,7 +43,7 @@ footer p{
     margin-right: 2vw;
     justify-content: space-between;
     align-items: center;
-    font-size: 3vh;
+    /* font-size: 3vh; */
 }
 
 .links div:hover{
