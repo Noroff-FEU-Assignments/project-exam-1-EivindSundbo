@@ -1,3 +1,5 @@
+/* * { border: 1px solid black; } */
+
 .main{
     display: flex;
     flex-direction: column;
@@ -7,7 +9,7 @@ h1{
     margin-top: 50px;
 }
 
-.main > div{
+.maindiv{
     display: flex;
     flex-direction: row;
 }
@@ -15,15 +17,29 @@ h1{
 .about-text{
     display: flex;
     flex-direction: column;
-    flex: 1;
-    align-items: center;
-    margin: 0 auto;
+    flex: 2;
+    text-align: left;
+    /* align-items: center; */
+    /* margin: 0 auto; */
     margin-left: 20px;
+    /* margin-top: 50px; */
 }
 
+.quotation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 80%;
+}
 
 .about-text p{
     width: 75%;
+}
+
+.desktop-tablet{
+    text-align: left;
 }
 
 .about-img{
@@ -31,51 +47,91 @@ h1{
     flex: 1;
     text-align: center;
     justify-content: center;
-    align-items: center;
+    height: 50%;
+    /* align-items: center; */
 }
 
-img{
-    width: 75%;
+.about-img img{
+    margin-top: 50px;
+    height: 800px;
 }
 
-.mobile{
+.youtube-link{
+    color: var(--button-color);
+    text-decoration: underline;
+}
+
+.buttons-mobile{
     display: none;
 }
 
-.quote{
-    margin: 100px;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column !important;
+.button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.quotation{
+    align-self: center;
+    align-items: center;
+    border: 2px solid var(--button-color);
+    border-radius: 9px;
+    width: 80%;
+}
+
+.author{
+    margin-top: 0px;
 }
 
 @media only screen and (max-width: 768px) {
-    
-    .mobile{
-        display: block;
-    }
-    
-    .desktop-tablet{
-        display: none;
-    }
 
-    .main > div{
+    .maindiv{
         display: flex;
         flex-direction: column;
         margin: 0 auto;
     }
 
-    .about-text{
-        justify-content: center;
+    .about-text p{
+        width: 90%;
     }
-
-    .about-img{
-        margin: 20px;
+    
+    .about-img img {
+        margin-top: 30px;
+        width: 100%;
     }
 
     .quote{
         width: 70%;
         padding: 60px;
+    }
+
+    .buttons-desktop{
+        display: none;
+    }
+    .buttons-mobile{
+        display: flex;
+    }
+
+    .quotation{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .about-img img {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .about-img img {
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .about-img img {
+        margin-top: -100px;
+        margin-bottom: -100px;
     }
 }

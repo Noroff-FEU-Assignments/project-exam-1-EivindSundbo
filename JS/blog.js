@@ -28,16 +28,32 @@ async function getApi(){
                         <h2>${data.acf.description}</h2>
                         <p class="post-paragraph">${data.acf.paragraph}</p>
                     </div>
-                    
                 </div>
-                <div class="shoppinglist">
-                    <h3>Shopping List</h3>
-                    <p>${data.acf.shoppinglist}</p>
-                </div>
+                
             </div>
-            <div class="quote">
+            <div class="shoppinglist">
+                <h3>Shoppinglist</h3>
+                <p>${data.acf.shoppinglist}</p>                
+            </div>
+            <div class="buttons">
+                    <div class="button">
+                        <div>
+                            <a href="list.html">
+                            <span>Back to posts</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="button ghost-button">
+                        <div>
+                            <a href="contact.html">
+                            <span>Contact me</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote">
                 <p>${data.acf.quote}</p>
-            </div>
+                </div>
 
             <div id="myModal" class="modal">
                 <img class="modal-content" id="img" src="${data.acf.image}">
@@ -71,7 +87,7 @@ async function getApi(){
     }}
     catch (error){
         console.log(error);
-        blogPost.innerHTML = ("We've fucked something up, please try again later or contact us trough the contact form", error);
+        blogPost.innerHTML = ("I've fucked something up, please try again later or contact us trough the contact form", error);
     }
 }
 

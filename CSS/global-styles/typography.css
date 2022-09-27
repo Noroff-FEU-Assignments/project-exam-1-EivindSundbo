@@ -1,5 +1,5 @@
-h1, h2, h3, h4, h5, button{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1, h2, h3, h4, h5, button, span{
+    font-family: cafeteria, sans-serif;
     font-weight: bold;
 }
 
@@ -7,34 +7,72 @@ textarea:-moz-placeholder, textarea::-moz-placeholder, textarea:-ms-input-placeh
     text-decoration: none;
 }
 
-p, input::placeholder, textarea, textarea::-webkit-input-placeholder, textarea:-moz-placeholder, textarea::-moz-placeholder, textarea:-ms-input-placeholder, textarea::placeholder{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
+p {
+    font-family: pragmatica-extended, sans-serif;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 h2{
-    font-size: 25px;
+    font-size: 40px;
 }
 
 h3{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h4{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 p, input::placeholder, textarea{
  font-size: 15px;
 }
 
+.quote > p, .quotation p{
+    font-family: cafeteria, sans-serif;
+    font-size: 30px;
+}
+
+.author{
+    font-weight: bold;
+}
+
+.shoppinglist span, .shoppinglist p{
+    text-decoration: none;
+    font-family: pragmatica-extended, sans-serif;
+}
+
 @media only screen and (max-width: 768px) {
     h1{
-        font-size: 25px;
+        font-size: 40px;
+    }
+    
+    h2{
+        font-size: 30px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    h4{
+        font-size: 15px;
+    }
+    
+    p, input::placeholder, textarea{
+     font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    
+
+    h1{
+        font-size: 30px;
     }
     
     h2{
@@ -50,14 +88,10 @@ p, input::placeholder, textarea{
     }
     
     p, input::placeholder, textarea{
-     font-size: 15px;
+     font-size: 10px;
     }
-}
-
-
-@media only screen and (max-width: 450px) {
+    
     footer p{
         font-size: 10px;
     }
-    
 }

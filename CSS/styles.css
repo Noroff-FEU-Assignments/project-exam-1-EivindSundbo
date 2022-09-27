@@ -19,8 +19,9 @@ h1, p{
     display: flex;
     align-items: center;
     margin-bottom: 8vmin;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .welcome-img, .welcome-text{
@@ -38,12 +39,17 @@ h1, p{
     margin: 0 auto;
 }
 
-h2{
+.buttons{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+h2, h3{
     color: var(--text-color);
     text-align: center;
 }
-
-
 
 .about-contact{
     width: 80%;
@@ -64,9 +70,6 @@ h2{
     align-items: center;
 }
 
-.about-contact-img{
-    width: 25%;
-}
 
 .button, .button-all-posts{
     width: 75%; 
@@ -87,6 +90,16 @@ h2{
     margin-bottom: 80px;
 }
 
+.ghost-button{
+    border: 1px solid var(--text-hover-color);
+    background-color: inherit;
+    color: black;
+}
+
+.ghost-button:hover{
+    border: none;
+    color: white;
+}
 
 .button:hover{
     background-color: var(--text-hover-color);
@@ -94,8 +107,20 @@ h2{
     transition: 0.4s;
 }
 
+.quote{
+    border: 2px solid var(--button-color);
+    border-radius: 9px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
 
 @media only screen and (max-width: 768px) {
+
+    .logo{
+        text-align: center;
+    }
 
     .about-contact{
         display: block;
@@ -115,6 +140,7 @@ h2{
 
     .welcome{
         display: block;
+        margin-top: 20px;
     }
     
     .welcome-img, .welcome-text{
@@ -138,6 +164,13 @@ h2{
 
     .button{
         width: 75%;
+    }
+
+    .buttons{
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .button-all-posts{

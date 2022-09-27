@@ -12,6 +12,11 @@ label {
     text-align: center;
 }
 
+label input, label textarea{
+    
+    border: 1px solid #9B1E2E;
+}
+
 .form-error {
     display: none;
     color: red;

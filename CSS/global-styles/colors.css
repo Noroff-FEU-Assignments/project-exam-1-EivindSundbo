@@ -1,10 +1,10 @@
 :root{
     --header-color: #F4F6F0;
-    --body-color: #F2F0E6;
-    --text-color: #4B7726;
+    --body-color: #F4F6F0;
+    --text-color: black;
     --text-hover-color: #C4780B;
-    --button-color: #4B7726;
-    --button-hover-color: #91BE39; 
+    --button-color: #9B1E2E;
+    --button-hover-color: #C4780B; 
     --button-text-color: #FFFFFF;
     --border-color: #707070;
 }
@@ -12,24 +12,3 @@
 h1, h2, h3, h4, h5, button, p, input::placeholder, textarea, li, #message{
     color: var(--text-color);
 }
-
-
-textarea::-webkit-input-placeholder {
-    color: #4B7726;
-  }
-  
-  textarea:-moz-placeholder { /* Firefox 18- */
-    color: #4B7726;  
-  }
-  
-  textarea::-moz-placeholder {  /* Firefox 19+ */
-    color: #4B7726;  
-  }
-  
-  textarea:-ms-input-placeholder {
-    color: #4B7726;  
-  }
-  
-  textarea::placeholder {
-    color: #4B7726;  
-  }

@@ -19,7 +19,7 @@ async function blogList(url){
             <a href="post.html?id=${data[i].id}" class="post-container">
                 <div class="card">
                     <img src="${data[i].acf.image}" />
-                    <h2 class="card-title">${data[i].acf.heading}</h2>
+                    <h3 class="card-title">${data[i].acf.heading}</h3>
                 </div>
             </a>
             `;
