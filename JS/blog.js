@@ -18,8 +18,8 @@ async function getApi(){
         
             //////Generate META description/////
             const meta = document.getElementsByTagName('meta')  
-            meta.keywords.content = `${data.acf.metadescription}`;  
-            meta.description.content = `blah blah`
+            meta.keywords.content = `bla bla`;  
+            meta.description.content = `${data.acf.metadescription}`
 
             //////Generate post//////
             blogPost.innerHTML =
