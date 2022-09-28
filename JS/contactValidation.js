@@ -11,7 +11,7 @@ const messageError = document.querySelector("#messageError");
 function validateForm(event){
     event.preventDefault();
 
-    if(checkLength(fullName.value, 5) === true){
+    if(checkLength(fullName.value, 6) === true){
         nameError.style.display = "none";
     } else {
         nameError.style.display = "block";
@@ -23,7 +23,7 @@ function validateForm(event){
         emailError.style.display = "block";
     }
 
-    if(checkLength(subject.value, 15) === true){
+    if(checkLength(subject.value, 16) === true){
         subjectError.style.display = "none";
     } else {
         subjectError.style.display = "block";
