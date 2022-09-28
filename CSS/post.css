@@ -75,4 +75,9 @@ h3{
     .image{
         width: 200px;
     }
+
+    .post-text-content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
