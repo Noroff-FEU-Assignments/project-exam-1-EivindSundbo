@@ -16,6 +16,10 @@ async function getApi(){
         const data = await response.json();
         console.log(data);
         
+            //////Generate META description/////
+            const meta = document.getElementsByTagName('meta')  
+            meta.keywords.content = `${data.acf.metadescription}`;  
+            meta.description.content = `blah blah`
 
             //////Generate post//////
             blogPost.innerHTML =
