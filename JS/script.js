@@ -13,6 +13,13 @@ document.getElementById("arrow-prev").addEventListener("click", () => {
     changeSlide(currentSlide - 1)
 });
 
+document.getElementById("arrow-next-mobile").addEventListener("click", () => {
+    changeSlide(currentSlide + 1)
+});
+document.getElementById("arrow-prev-mobile").addEventListener("click", () => {
+    changeSlide(currentSlide - 1)
+});
+
 
 //Create URL
 const apiUrl = "https://project-exam-1.eg-sundbo.online/wp-json/wp/v2/posts?acf_format=standard&per_page=20"

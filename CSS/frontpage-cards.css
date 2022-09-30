@@ -92,6 +92,10 @@
     width: 4vw;
 }
 
+.arrow-box-mobile{
+    display: none;
+}
+
 .fa-solid{
     color: var(--button-color);
     font-size: 4vw;
@@ -106,10 +110,15 @@
 
 @media only screen and (max-width: 768px) {
     
-    #slideone, #slidetwo, .arrow-box{
-        display: none;
+    .arrow-box-mobile{
+        display: block;
+        flex-direction: column;
     }
 
+    .arrow-box-desktop{
+        display: none;
+    }
+   
     #slidemobile{
     display: flex;
     flex-wrap: wrap;
@@ -131,4 +140,6 @@
     .card-title{
         width: 100%;
     }
+
+    
 }
