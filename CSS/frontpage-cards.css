@@ -23,26 +23,11 @@
 .slider_nav{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .slider_navlink.active {
     background-color: var(--button-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .carousel{
     display: flex;
@@ -50,7 +35,6 @@
     justify-content: center;
     margin: 0 auto;
     width: 100%;
-    
 }
 
 .carousel_card, #slidemobile{
@@ -139,6 +123,10 @@
     
     .card-title{
         width: 100%;
+    }
+
+    .fa-solid{
+        font-size: 30px
     }
 
     

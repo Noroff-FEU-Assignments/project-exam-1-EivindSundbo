@@ -11,6 +11,8 @@ async function blogList(url){
         const response = await fetch(url);
         const data = await response.json();
 
+        console.log(data);
+
         postContainer.innerHTML = "";
 
         for(var i = 0; i <= data.length-1; i++){            
@@ -18,7 +20,7 @@ async function blogList(url){
             `
             <a href="post.html?id=${data[i].id}" class="post-container">
                 <div class="card">
-                    <img src="${data[i].acf.image}" alt="${data[i].title.rendered}"/>
+                    <img src="${data[i].acf.image}" alt="Picture of ${data[i].title.rendered}"/>
                     <h3 class="card-title">${data[i].acf.heading}</h3>
                 </div>
             </a>

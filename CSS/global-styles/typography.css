@@ -65,6 +65,11 @@ p, input::placeholder, textarea{
     p, input::placeholder, textarea{
      font-size: 15px;
     }
+
+    .quote > p, .quotation p{
+        font-family: cafeteria, sans-serif;
+        font-size: 25px;
+    }
 }
 
 
@@ -93,5 +98,10 @@ p, input::placeholder, textarea{
     
     footer p{
         font-size: 10px;
+    }
+
+    .quote > p, .quotation p{
+        font-family: cafeteria, sans-serif;
+        font-size: 20px;
     }
 }

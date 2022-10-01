@@ -26,7 +26,7 @@ async function getApi(){
             `
             <div class="blog-post-item">
                 <div class="main-content">
-                    <img class="image" src="${data.acf.image}" alt="${data.title.rendered}"/>
+                    <img class="image" src="${data.acf.image}" alt="Picture of ${data.title.rendered}"/>
                     <div class="post-text-content">
                         <h1>${data.acf.heading}</h1>
                         <h2>${data.acf.description}</h2>
