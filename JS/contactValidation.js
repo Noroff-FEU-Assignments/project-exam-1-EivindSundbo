@@ -7,7 +7,7 @@ const subject = document.querySelector("#subject");
 const subjectError = document.querySelector("#subjectError");
 const message = document.querySelector("#message");
 const messageError = document.querySelector("#messageError");
-const messageSuccess = document.querySelector("#messageSuccess");
+const messageSuccess = document.querySelector("#messageSent");
 
 
 function validateForm(event){
@@ -25,34 +25,32 @@ function validateForm(event){
         emailError.style.display = "block";
     }
 
-    if(checkLength(subject.value, 14) === true){
+    if(checkLength(subject.value, 16) === true){
         subjectError.style.display = "none";
     } else {
         subjectError.style.display = "block";
     }
 
-    if(checkLength(message.value, 24) > 25){
+    if (checkLength(message.value, 24) === true) {
         messageError.style.display = "none";
-    } else {
-        messageError.style.display = "block";
-    }
-    if (
-        checkLength(firstName.value, 4) &&
-        validateEmail(email.value) &&
-        checkLength(subject.value, 14) &&
-        checkLength(message.value, 24)
-      ) {
-        fullName.value = "";
-        email.value = "";
-        subject.value = "";
-        message.value = "";
-        messageSuccess.style.display = "block";
       } else {
-        messageSuccess.style.display = "none";
+        messageError.style.display = "block";
       }
-    }
 
+      if (
+        checkLength(fullName.value, 5, 0) &&
+        validateEmail(email.value) &&
+        checkLength(subject.value, 15, 0) &&
+        checkLength(message.value, 25, 0) === true
+      ) {
+        messageSuccess.innerHTML =
+          '<div class="message">Your message has been submitted</div>';
+        form.reset();
+      } else {
+        messageSuccess.innerHTML = "";
+      }
 
+}
 
 form.addEventListener("submit", validateForm)
 
