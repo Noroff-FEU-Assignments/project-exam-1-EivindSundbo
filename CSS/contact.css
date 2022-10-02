@@ -88,11 +88,11 @@ button{
     text-align: center;
 }
 
-#messageSuccess{
-    display: none;
+
+.success-message{
+    text-align: center;
+    font-size: 40px;
 }
-
-
 
 @media only screen and (max-width: 768px) {
     .contact-main{

@@ -25,7 +25,7 @@ function validateForm(event){
         emailError.style.display = "block";
     }
 
-    if(checkLength(subject.value, 16) === true){
+    if(checkLength(subject.value, 14) === true){
         subjectError.style.display = "none";
     } else {
         subjectError.style.display = "block";
@@ -44,7 +44,7 @@ function validateForm(event){
         checkLength(message.value, 25, 0) === true
       ) {
         messageSuccess.innerHTML =
-          '<div class="message">Your message has been submitted</div>';
+          '<div class="success-message">Your message has been submitted</div>';
         form.reset();
       } else {
         messageSuccess.innerHTML = "";
