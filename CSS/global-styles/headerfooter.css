@@ -16,7 +16,8 @@ header, footer{
 
 .logo img{
     width: 200px;
-    margin-left: 20px
+    margin-left: 20px;
+    margin-top: 20px;
 }
 footer{
     justify-content: center;

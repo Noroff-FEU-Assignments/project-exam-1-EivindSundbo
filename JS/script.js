@@ -91,17 +91,6 @@ async function createCarousel(){
             </a>
             `;
         }
-        for(let i = 9; i <= 11; i++){            
-            slidefour.innerHTML += 
-            `
-            <a href="post.html?id=${data[i].id}">
-                <div class="carousel-card-content">
-                    <img src="${data[i].acf.image}" alt="${data[i].title.rendered}"/>
-                    <h3 class="title-background" >${data[i].acf.heading}</h3>
-                </div>
-            </a>
-            `;
-        }
         
     } catch (error){
         console.log(error);

@@ -1,5 +1,7 @@
 const blogPost = document.querySelector(".blog-post");
 const title = document.querySelector("title");
+const breadCrumbs = document.querySelector(".breadcrumbs");
+
 
 
 const queryString = document.location.search;
@@ -20,6 +22,16 @@ async function getApi(){
             const meta = document.getElementsByTagName('meta')  
             meta.keywords.content = `bla bla`;  
             meta.description.content = `${data.acf.metadescription}`
+
+            //////Generate breadcrumbs/////
+            breadCrumbs.innerHTML = `
+            <ul class="breadcrumbs">
+                <li><span><a href="/index.html">Home</a></span></li>
+                <li><span><a href="/list.html">List of posts</a></span></li>
+                <li><span><a href="#" class="current-crumb">${data.acf.heading}</a></span></li>
+            </ul>`;
+            
+
 
             //////Generate post//////
             blogPost.innerHTML =
@@ -67,7 +79,7 @@ async function getApi(){
             
 
             //////Generate title//////
-            title.innerHTML = `John Bottolfsens gate 14 | ${data.acf.heading}`
+            title.innerHTML = `John Bottolfsens gate 14 | ${data.acf.heading}`;
 
 
     
@@ -91,7 +103,7 @@ async function getApi(){
     }}
     catch (error){
         console.log(error);
-        blogPost.innerHTML = ("I've fucked something up, please try again later or contact us trough the contact form", error);
+        blogPost.innerHTML = ("I've fucked something up, please try again later or contact me trough the contact form", error);
     }
 }
 
