@@ -22,9 +22,10 @@
 
 .slider_nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
+
 .slider_navlink.active {
     background-color: var(--button-color);
 }
@@ -135,6 +136,10 @@
 
     .arrow-mobile-right{
         margin-right: 40px;
+    }
+
+    .slider_nav{
+        justify-content: space-evenly;
     }
     
 }
