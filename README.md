@@ -17,8 +17,7 @@ We were tasket with creating a blog site. We could choose the design and topics 
 -	Contact page.
 
 ## Built With
-
-You can list a the tech stack that you've used over here
+Tech used to make this site:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
