@@ -2,7 +2,7 @@
 
 ![image](https://github.com/Noroff-FEU-Assignments/project-exam-1-EivindSundbo/blob/main/content/images/logo.png?raw=true)
 
-A simple overview of the use/purpose of the project.
+Link to live [SITE](https://gorgeous-tiramisu-cb5830.netlify.app/)
 
 ## Description
 
