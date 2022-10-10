@@ -40,10 +40,6 @@ https://github.com/Noroff-FEU-Assignments/project-exam-1-EivindSundbo.git
 No special needs here. Just open with VSCode and launch with "Live Server"
 
 
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-
 ## Contact
 
 If you have any feedback or just want to get in touch please contact me through:
