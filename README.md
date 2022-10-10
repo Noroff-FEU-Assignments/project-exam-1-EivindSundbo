@@ -29,17 +29,12 @@ Here is the tech I used to make this site:
 
 Here is how you can test this project
 
-1. Clone the repo:
+Clone the repo:
 
 ```bash
 git clone git@github.com:NoroffFEU/portfolio-1-example.git
 ```
 
-2. Install the dependencies:
-
-```
-npm install
-```
 
 ### Running
 
