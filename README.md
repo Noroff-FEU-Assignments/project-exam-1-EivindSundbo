@@ -39,9 +39,6 @@ https://github.com/Noroff-FEU-Assignments/project-exam-1-EivindSundbo.git
 
 No special needs here. Just open with VSCode and launch with "Live Server"
 
-```bash
-npm run start
-```
 
 ## Contributing
 
@@ -49,7 +46,9 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+If you have any feedback or just want to get in touch please contact me through:
+
+[My Discord](https://discord.com/users/298164219382333441)
 
 [My LinkedIn page](https://www.linkedin.com/in/eivind-berg-sundb%C3%B8-9064b79a/)
 
