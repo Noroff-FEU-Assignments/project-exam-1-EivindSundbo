@@ -54,10 +54,7 @@ If you have any feedback or just want to get in touch please contact me through:
 
 [My Facebook page](https://www.facebook.com/eivind.ber)
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+Loading icon is taken from https://loading.io/css/
