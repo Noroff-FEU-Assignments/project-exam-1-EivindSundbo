@@ -1,4 +1,4 @@
-# Your project title
+# Food for Thought
 
 ![image](https://github.com/Noroff-FEU-Assignments/project-exam-1-EivindSundbo/blob/main/content/images/logo.png?raw=true)
 
@@ -6,13 +6,15 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+The goal of this project was to put into practice the skills I learned over the first year of studies.
 
-You can add some bullet points if you'd like to:
+We were tasket with creating a blog site. We could choose the design and topics covered on the blog, but it was to contain at least the following pages:
 
-- List item 1
-- List item 2
-- List item 3
+- Home page
+- About page
+- List of blog posts
+- Blog post specific pages
+-	Contact page.
 
 ## Built With
 
