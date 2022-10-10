@@ -17,7 +17,7 @@ We were tasket with creating a blog site. We could choose the design and topics 
 -	Contact page.
 
 ## Built With
-Tech used to make this site:
+Here is the tech I used to make this site:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
@@ -27,7 +27,7 @@ Tech used to make this site:
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+Here is how you can test this project
 
 1. Clone the repo:
 
@@ -59,9 +59,9 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
+[My LinkedIn page](https://www.linkedin.com/in/eivind-berg-sundb%C3%B8-9064b79a/)
 
-[My LinkedIn page](www.linkedin.com)
+[My Facebook page](https://www.facebook.com/eivind.ber)
 
 ## License
 
