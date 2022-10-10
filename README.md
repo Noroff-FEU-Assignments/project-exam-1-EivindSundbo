@@ -27,20 +27,17 @@ Here is the tech I used to make this site:
 
 ### Installing
 
-Here is how you can test this project
+Nothing fancy here :D
+Just download the repo!
 
-Clone the repo:
-
+Repo:
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+https://github.com/Noroff-FEU-Assignments/project-exam-1-EivindSundbo.git
 ```
-
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
+No special needs here. Just open with VSCode and launch with "Live Server"
 
 ```bash
 npm run start
