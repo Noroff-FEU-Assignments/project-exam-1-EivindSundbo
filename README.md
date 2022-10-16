@@ -16,6 +16,11 @@ We were tasket with creating a blog site. We could choose the design and topics 
 - Blog post specific pages
 -	Contact page.
 
+And the following functions:
+- Carousel showing the latest posts.
+- "View more" button to let you view more than 10 posts.
+- Form validation on the contact page.
+
 ## Built With
 Here is the tech I used to make this site:
 
